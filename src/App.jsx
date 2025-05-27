@@ -1,10 +1,8 @@
-// import { useState } from 'react'
-import './App.css'
+  import "./App.css"
+import { CountdownTimer2 } from "./components/countdown-timer"
 
 function App() {
-  return (
-    <></>
-  )
+  return <CountdownTimer2 initialTime={3} />
 }
 
 export default App
